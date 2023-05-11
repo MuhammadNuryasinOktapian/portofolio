@@ -37,6 +37,9 @@ export default function HeaderSection() {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+  if (!mounted) {
+    return null;
+  }
   return (
     <div
       className={`top-0 right-0 left-0 z-20 transition-all  p-6 ${

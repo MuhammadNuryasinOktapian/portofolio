@@ -16,20 +16,6 @@ export default function FooterSection() {
       menu: "Education",
     },
   ];
-  const socialMedia = [
-    {
-      icon: "facebook",
-      link: "https://www.facebook.com/hidayat.mauludin",
-    },
-    {
-      icon: "instagram",
-      link: "https://www.instagram.com/dayatmauluddin/",
-    },
-    {
-      icon: "linkedin",
-      link: "https://www.linkedin.com/in/dayat-mauludin-15726b15b/",
-    },
-  ];
   return (
     <div className="bg-violet-100">
       <div className="max-w-7xl mx-auto flex lg:items-center">
