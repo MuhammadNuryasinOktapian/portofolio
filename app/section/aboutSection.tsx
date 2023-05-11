@@ -43,7 +43,7 @@ export default function aboutSection() {
                 <div className="w-[280px] lg:w-[400px]">
                   <PasFotoBg />
                 </div>
-                <div className="w-[180px] aspect-square bg-black blur-3xl absolute"></div>
+                <div className="lg:w-[180px] w-[140px] aspect-square bg-black blur-3xl absolute"></div>
                 <Image
                   src={PasFoto}
                   alt="pasfoto"
