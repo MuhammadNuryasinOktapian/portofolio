@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+path.pasFotoBg_svg__color {
+  @apply fill-accent-2;
+}
